@@ -64,6 +64,11 @@ section ul li, section ol li {
 	margin-right: 5px;
 	color: #FB62F6;
 }
+.boxes li:before {
+	content: "\2610";
+	margin-right: 5px;
+	color: #FB62F6;
+}
 .reqs {
 	display: grid;
   grid-template-columns: repeat(2, 1fr);
