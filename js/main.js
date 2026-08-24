@@ -31,14 +31,23 @@ function shuffle(array) {
 }
 
 function randomList(){
-  var students = ["Jules", "Anna", "Finn", "Claire", "Rayna", "Sung-Ho", "Patrick", "Jenn", "Jess", "Paul", "Alice", "Emily", "Isha", "CeCe", "Valerie", "Brendan"];
+  var studentsM = ["alana", "alexandra", "amalia", "ayana", "bavon", "grace", "iffet", "joseph", "katya", "krittapas", "miles", "quenterrell", "ray", "richard", "samantha", "sidney", "sophia", "vivian"];
+  var studentsW = ["binglei", "daniel", "ellen", "ethan", "hafsa", "hayden", "janelle", "jenna", "joshua", "kaiya", "madison", "marcus", "marlyn", "meredith", "raven", "ryan", "samuel", "xavier"];
   var y;
-  $('#generate').click( function(){
+  $('#m-generate').click( function(){
     $('ol').empty()
-    shuffle(students);
-    for (y = 0; y < students.length; y++) {
-      var html = '<li>' + (y + 1) + '. ' + students[y] + '</li>';
-      $('#list').append(html);
+    shuffle(studentsM);
+    for (y = 0; y < studentsM.length; y++) {
+      var html = '<li>' + (y + 1) + '. ' + studentsM[y] + '</li>';
+      $('#m-list').append(html);
+    };
+  });
+  $('#w-generate').click( function(){
+    $('ol').empty()
+    shuffle(studentsW);
+    for (y = 0; y < studentsW.length; y++) {
+      var html = '<li>' + (y + 1) + '. ' + studentsW[y] + '</li>';
+      $('#w-list').append(html);
     };
   });
 }

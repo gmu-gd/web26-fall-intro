@@ -14,8 +14,6 @@ body {
 main {
 	width: 800px;
 	margin: 50px auto;
-
-
 }
 #meta {
 	display: grid;
@@ -205,7 +203,7 @@ h1 a, h1 a:link, h1 a:hover, h1 a:active, h1 a:visited {
   background-color: #373737;
   color: #FFFDED;
 }
-#generate {
+#m-generate, #w-generate {
   text-align: center;
   margin: 25px 0;
 }
@@ -220,6 +218,9 @@ h1 a, h1 a:link, h1 a:hover, h1 a:active, h1 a:visited {
   margin: 0;
   padding: 5px 0;
   float: none;
+}
+#random-list h5 {
+	text-align: center;
 }
 @media only screen and (max-width: 1050px) {
 	main {
