@@ -32,7 +32,7 @@ function shuffle(array) {
 
 function randomList(){
   var studentsM = ["alana", "alexandra", "amalia", "ayana", "bavon", "grace", "iffet", "joseph", "katya", "mickey", "miles", "que", "ray", "richard", "sami", "sidney", "sophia", "vivian"];
-  var studentsW = ["binglei", "daniel", "ellen", "ethan", "hafsa", "hayden", "janelle", "jenna", "joshua", "kaiya", "madison", "marcus", "marlyn", "meredith", "raven", "ryan", "samuel", "xavier"];
+  var studentsW = ["binglei", "daniel", "ellen", "ethan", "hafsa", "hayden", "janelle", "jennah", "joshua", "kaiya", "madi", "marcus", "marlyn", "meredith", "raven", "ryan", "sam", "xavier"];
   var y;
   $('#m-generate').click( function(){
     $('ol').empty()
